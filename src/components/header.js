@@ -1,35 +1,47 @@
-import { Link } from "gatsby"
+import { withPrefix, Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { Helmet } from "react-helmet"
+
+import Buca from "../images/buca_logo.svg"
+
+const [open, setOpen] = useState(false);
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <header>
+    <Helmet>
+      <script src={withPrefix('script.js')} type="text/javascript" />
+    </Helmet>
+    <section class="left">
+      <Link to="/">
+        <img src={Buca} alt="Logo of BUCA App"/>
+      </Link>
+      <Link className="navigation-link" to="/features">Features</Link>
+      <Link className="navigation-link" to="/pricing">Pricing</Link>
+      <Link className="navigation-link" to="/about">About</Link>
+    </section>
+
+    <section class="right">
+      <div class="dropdown hidden-landscape">
+        <button class="dropbtn">
+          ▼
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <Link className="navigation-link" to="/features">Features</Link>
+          <Link className="navigation-link" to="/pricing">Pricing</Link>
+          <Link className="navigation-link" to="/about">About</Link>
+        </div>
+      </div>
+      {/* <a href= */}
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" class="get-started">Get started</a>
+    </section>
   </header>
 )
+
+function myFunction() {
+  console.log('hi')
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

@@ -1,11 +1,39 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    siteUrl: `https://www.buca.my`,
+    title: `BUCA: The Resident Association Application`,
+    description: `An application to help manage your resident association easily and effectively.`,
+    author: `Sheng`,
+    keywords: `Malaysia, Resident Association, Rukun Tetangga, Community, Guarded Status, Guarded Neighborhood`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-144470424-2]",
+        head: true,
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

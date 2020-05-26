@@ -65,7 +65,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 3rem;
   margin: 0.67em 0;
 }
 mark {
@@ -238,7 +238,7 @@ h1 {
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  /* font-size: 2.25rem; */
   line-height: 1.1;
 }
 h2 {
@@ -255,7 +255,7 @@ h2 {
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  /* font-size: 1.62671rem; */
   line-height: 1.1;
 }
 h3 {
@@ -272,7 +272,7 @@ h3 {
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  /* font-size: 1.38316rem; */
   line-height: 1.1;
 }
 h4 {
@@ -283,7 +283,7 @@ h4 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  /* margin-bottom: 1.45rem; */
   color: inherit;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
@@ -300,7 +300,7 @@ h5 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  /* margin-bottom: 1.45rem; */
   color: inherit;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
@@ -323,7 +323,7 @@ h6 {
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
+  /* font-size: 0.78405rem; */
   line-height: 1.1;
 }
 hgroup {
@@ -625,8 +625,9 @@ pre tt:after {
   }
 }
 
+
 .front-page {
-  background-image: url("../images/newest_background.jpg") ;
+  background-image: url("../images/newest_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-size: 100% 600px;
@@ -662,6 +663,20 @@ img {
   border-radius: 2.5%;
 }
 
+.contact-us {
+  text-align: center;
+  margin: 5rem;
+}
+
+.contact-us a {
+  padding: 1.5rem 2rem;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+  background-color: #DB2861;
+  font-weight: bold;
+}
+
 header img {
   width: 130px;
   padding: 0.5rem 0;
@@ -680,137 +695,30 @@ p {
   line-height: 1.4;
 }
 
-.divider h2, .features h3 {
-  color: #428dbd;
-}
-
-.front-page header {
-  grid-area: header;
-  margin-bottom: 2rem;
-  padding: 0.5rem 0.5rem 0 0.5rem;
-}
-
-.front-page .description {
-  grid-area: content;
-}
-
-.front-page .description .tagline {
-  font-size: 1.2rem;
-}
-
-.front-page .image {
-  grid-area: image;
-}
-
-.front-page .image img {
-  box-shadow:  0 1rem 3rem rgba(255,255,255,.175);
-  max-width: 400px;
-}
-
-.features img {
-  box-shadow: 0 1rem 3rem rgba(6, 6, 6, 0.5);
-}
-
-.features .feature .image .telegram-icon {
-  max-width: 30vw;
-  border-radius: 50%;
-}
-
-.front-page .divider {
-  grid-area: footer;
-
-}
-
-.contact-us {
-  text-align: center;
-  margin: 5rem;
-}
-
-.contact-us a {
-  padding: 1.5rem 2rem;
-  border-radius: 7px;
-  text-decoration: none;
-  color: white;
-  background-color: #DB2861;
-  font-weight: bold;
-  /* box-shadow: 0 10px 15px -admin@buca.my3px rgb(60, 89, 60), 0 4px 6px -2px rgba(104, 104, 104, 0.7); */
-}
-
 hr {
   color: gray;
 }
 
-.features h1 {
-  text-align: center;
-}
 
-
-.pricing {
-  background-color: white;
-    border-radius: 15px;
-}
-
-.pricing .price {
-  font-size: 1.5rem;
-  color: #466a8c;
-}
-
-.original-price {
-  text-decoration: line-through red solid;
-  text-decoration-thickness: 0.2rem;
-}
-
-.divider {
-  text-align: center;
-  margin-top: 3rem;
-  color: #313131c2;
-}
-
-section.pricing {
-  display: grid;
-  grid-template-rows: 20% 35% 35% 10%;
-  grid-template-columns: 50% 50%;
-  margin: 1rem 10rem;
-  padding: 3rem;
-  background-color: #ccc;
-}
-
-section.pricing h1 {
-  grid-area: title;
-  margin-top: 0;
-  text-align: center;
-}
-
-section.pricing .resident-association, section.pricing .rukun-tetangga {
-  background-color: #dfdfdf;
-  border-radius: 10px;
-  margin: 1rem 3rem;
-  text-align: center;
-  box-shadow:  0 10px 15px -3px rgb(80, 81, 80), 0 4px 6px -2px rgba(104, 104, 104, 0.7);
-}
-
-section.pricing .resident-association {
-  grid-area: ra;
-}
-
-section.pricing .rukun-tetangga {
-  grid-area: rt;
-}
-
-section.pricing section.footer {
-  text-align: center;
-  grid-area: footer;
-}
-
-section.pricing section.footer p {
-  font-size: 0.8rem;
-}
 
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem;
+  padding: 1rem;
+  background-color: #363945;
+  color: #9CA8B7;
 }
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  margin-bottom: 0;
+  /* padding: 0.5rem 0.3rem; */
+}
+
 
 .dropdown {
   float: left;
@@ -827,27 +735,37 @@ footer {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-}.dropdown-content {
+  height: 61px;
+}
+
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 1.3rem 4rem;
+  padding-left: 1.2rem;
+  border-bottom: 1px solid black;
+  /* padding-right: 2rem; */
   text-decoration: none;
   display: block;
   text-align: left;
+  font-size: 1.5rem;
 }
 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
+.dropdown-content.show, .dropdown-content a.navigation-link {display:block;}
 
 header {
   display: flex;
@@ -855,32 +773,32 @@ header {
   justify-content: space-between;
 }
 
+.last-section {
+  /* padding: 10rem 0; */
+  height: 70vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+p.header {
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+hr {
+  margin: 0 5rem 3rem 5rem;
+}
+
 @media screen and (min-width: 1032px) {
+  footer .right a {
+    margin-left: 1rem;
+  }
+
   .hidden-landscape {
     display: none;
-  }
-
-  .front-page {
-    padding-bottom: 5rem;
-    padding-left: 7rem;
-    padding-right: 3rem;
-    display: flex;
-    /* height: 60vh; */
-    /* grid-template-areas:
-      "header header"
-      "content image"
-      "footer footer"; */
-  }
-
-  .front-page .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 5rem;
-  }
-
-  .front-page img {
-    margin-top: 3rem;
   }
 
   header {
@@ -891,6 +809,10 @@ header {
   header .left {
     display: flex;
     align-items: center;
+  }
+
+  header .left img {
+    vertical-align: middle;
   }
 
   header a.navigation-link {
@@ -915,43 +837,22 @@ header {
     font-weight: bold;
   }
 
-  h1 {
-    font-size: 3rem;
-  }
 
-
-  .feature {
-    display: flex;
-    margin: 7rem 10rem;
-
-    /* margin: 1rem; */
-  }
-
-  .feature .image img {
-    margin-right: 2rem;
-    max-width: 30vw;
-  }
-
-  .feature .description {
-    margin: auto 0;
-  }
-
-  section.pricing {
-    grid-template-areas:
-      "title title"
-      "ra rt"
-      "ra rt"
-      "footer footer";
-  }
-
-  .front-page .contact-us {
-    text-align: left;
-    margin: 3rem 0 0 0;
-    /* box-shadow: */
-  }
 }
 
 @media screen and (max-width: 1032px) {
+  footer .right a {
+    margin-right: 1rem;
+  }
+
+  footer .right {
+    margin-top: 1rem;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
   .hidden-portrait {
     display: none;
   }
@@ -960,59 +861,10 @@ header {
     display: none;
   }
 
-  .front-page {
-    /* height: 50vh; */
-    /* padding: 5rem 0 10rem 0; */
-    height: 70vh;
-    overflow: auto;
-    /* mar */
-  }
-
-  .front-page .image img {
-    display: none;
-  }
-
-  .front-page .description {
-    text-align: center;
-    max-width: 580px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    padding-top: 2.5rem;
-  }
-
   h1 {
     font-size: 2rem;
     margin: 25px 1rem;
   }
 
-  .feature .image img {
-    display: block;
-    margin: 0 auto;
-    max-width: 65vw;
-    margin-bottom: 2rem;
-    /* max-width: 400px; */
-  }
-
-  .feature {
-    margin: 7em 5rem;
-  }
-
-  section.pricing {
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-
-    /* margin-left: 5rem;
-    margin-right: 5rem; */
-    grid-template-areas:
-      "title title"
-      "ra ra"
-      "rt rt"
-      "footer footer";
-  }
-
-  footer {
-    display: block;
-  }
 }
 

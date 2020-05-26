@@ -5,43 +5,67 @@ import { Helmet } from "react-helmet"
 
 import Buca from "../images/buca_logo.svg"
 
-const [open, setOpen] = useState(false);
+// const [open, setOpen] = useState(false);
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <Helmet>
-      <script src={withPrefix('script.js')} type="text/javascript" />
-    </Helmet>
-    <section class="left">
-      <Link to="/">
-        <img src={Buca} alt="Logo of BUCA App"/>
-      </Link>
-      <Link className="navigation-link" to="/features">Features</Link>
-      <Link className="navigation-link" to="/pricing">Pricing</Link>
-      <Link className="navigation-link" to="/about">About</Link>
-    </section>
+// const Header = ({ siteTitle }) => (
+class Header extends React.Component {
 
-    <section class="right">
-      <div class="dropdown hidden-landscape">
-        <button class="dropbtn">
-          ▼
-        </button>
-        <div class="dropdown-content" id="myDropdown">
+  constructor(props) {
+    super(props);
+    this.state = { dropdown: false };
+  }
+
+  toggleDropdown() {
+    // console.log('tests')
+    this.setState(prevState => ({
+      dropdown: !prevState.dropdown
+    }));
+  }
+
+  render (){
+    return (
+      <header>
+        <Helmet>
+          <script src={withPrefix('script.js')} type="text/javascript" />
+        </Helmet>
+        <section class="left">
+          <Link to="/">
+            <img src={Buca} alt="Logo of BUCA App"/>
+          </Link>
           <Link className="navigation-link" to="/features">Features</Link>
           <Link className="navigation-link" to="/pricing">Pricing</Link>
           <Link className="navigation-link" to="/about">About</Link>
-        </div>
-      </div>
-      {/* <a href= */}
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" class="get-started">Get started</a>
-    </section>
-  </header>
-)
+        </section>
 
-function myFunction() {
-  console.log('hi')
-  document.getElementById("myDropdown").classList.toggle("show");
+        <section class="right">
+          {/* <Menu right className="hidden-landscape" width={ 200 } isOpen={ false }>
+            <Link className="navigation-link menu-item" to="/features">Features</Link>
+            <Link className="navigation-link menu-item" to="/pricing">Pricing</Link>
+            <Link className="navigation-link menu-item" to="/about">About</Link>
+          </Menu> */}
+          <div class="dropdown hidden-landscape">
+            <button class="dropbtn" onClick={() => this.toggleDropdown()}>
+              ▼
+            </button>
+            <div id="myDropdown" className={this.state.dropdown ? 'dropdown-content show' : 'dropdown-content' }>
+              <Link className="navigation-link" to="/features">Features</Link>
+              <Link className="navigation-link" to="/pricing">Pricing</Link>
+              <Link className="navigation-link" to="/about">About</Link>
+            </div>
+
+          </div>
+          {/* <a href= */}
+          <a href="https://forms.gle/NHbVCBFLMxjFxg657" target="_blank" rel="noreferrer" class="get-started">Get started</a>
+        </section>
+      </header>
+    );
+  }
 }
+
+// function myFunction() {
+//   console.log('hi')
+//   document.getElementById("myDropdown").classList.toggle("show");
+// }
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

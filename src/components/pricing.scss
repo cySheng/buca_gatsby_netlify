@@ -1,0 +1,133 @@
+.pricing-front-page {
+  background-image: url("../images/pricing-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+
+  h1 {
+    margin-top: 0;
+    color: white;
+  }
+
+  .pricing-page-title {
+    text-align: center;
+  }
+
+  .pricing-tables {
+    padding-top: 2rem;
+  }
+
+  @media screen and (max-width: 1032px) {
+    .rukun-tetangga, .resident-association {
+      max-width: 60vw;
+      margin-bottom: 3rem;
+    }
+
+    .pricing-tables {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .pricing-faq {
+      width: 70vw;
+    }
+  }
+
+
+  @media screen and (min-width: 1032px) {
+    .pricing-tables {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 4rem;
+    }
+
+    .rukun-tetangga, .resident-association {
+      max-width: 40vw;
+      margin: 0 2rem;
+    }
+    .pricing-faq {
+      width: 50vw;
+    }
+
+  }
+
+  .rukun-tetangga, .resident-association {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    // padding: 1rem 2rem;
+    text-align: center;
+
+    .first h2 {
+      margin-bottom: 0.3rem;
+    }
+
+    section {
+      border: 1px solid #EFEFEF;
+      padding: 1rem 2rem;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .light {
+      margin-top: 0.5rem;
+      color: #5B6B7F;
+      font-size: 0.8rem;
+    }
+  }
+
+  .rukun-tetangga h2 {
+    color: #3EA9F5;
+  }
+
+  .resident-association h2 {
+    color: #5B6B7F;
+  }
+}
+
+.pricing-faq {
+  margin: 3rem auto;
+  padding: 2rem 4rem;
+}
+
+.pricing-last-section {
+  padding: 5rem 2rem;
+  height: 80vh;
+  text-align: center;
+  background-image: url("../images/pricing-last-section.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & h2 {
+    margin-bottom: 4rem;
+    color: white;
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    border-radius: 7px;
+    text-decoration: none;
+
+    font-weight: bold;
+
+    &.get-started {
+      color: white;
+      background-color: #DB2861;
+      margin-right: 2rem;
+    }
+
+    &.get-in-touch {
+      border: 2px solid #DB2861;
+      color: white;
+    }
+  }
+}

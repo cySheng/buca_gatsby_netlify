@@ -1,7 +1,22 @@
 .about-us {
-  height: 80vh;
-  width: 70vw;
+  height: calc(100vh - 60px - 54px);
+  // width: 70vw;
+  color: white;
   text-align: center;
   margin: auto;
-  margin-top: 3rem;
+  padding-top: 3rem;
+  background-image: url("../images/about-us-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  section.description {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  p {
+
+    font-size: 1.4rem;
+  }
 }

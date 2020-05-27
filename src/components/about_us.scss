@@ -1,10 +1,10 @@
 .about-us {
-  height: calc(100vh - 60px - 54px);
+  // height: calc(100vh - 60px - 54px);
   // width: 70vw;
   color: white;
   text-align: center;
   margin: auto;
-  padding-top: 3rem;
+  padding: 3rem 1rem;
   background-image: url("../images/about-us-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,4 +19,11 @@
 
     font-size: 1.4rem;
   }
+}
+
+.our-story {
+  h2 {
+    text-align: center;
+  }
+  padding: 3rem 1rem;
 }

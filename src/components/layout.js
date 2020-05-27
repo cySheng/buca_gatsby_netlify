@@ -13,7 +13,7 @@ import Header from "./header"
 // import "./normalize.css"
 import "./layout.css"
 import "./front_page.css"
-import "./features.css"
+import "./features.scss"
 import "./pricing.scss"
 import "./about_us.scss"
 

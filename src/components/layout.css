@@ -794,6 +794,11 @@ hr {
   margin: 0 5rem 3rem 5rem;
 }
 
+header .left {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (min-width: 1032px) {
   footer .right a {
     margin-left: 1rem;
@@ -806,11 +811,6 @@ hr {
   header {
     padding-left: 7rem;
     padding-right: 3rem;
-  }
-
-  header .left {
-    display: flex;
-    align-items: center;
   }
 
   header .left img {

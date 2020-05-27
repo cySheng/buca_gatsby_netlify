@@ -637,16 +637,13 @@ pre tt:after {
   /* background-size: 100% 600px;   */
   /* center center/cover no-repeat fixed padding-box border-box #ccc; */
   background-color: white;
+  color: white;
 }
 
 hr {
   /* margin: 0; */
   color: white;
   margin: 0 1rem;
-}
-
-.front-page {
-  color: white;
 }
 
 h1, h2, h3, h4, h5,  h6 {

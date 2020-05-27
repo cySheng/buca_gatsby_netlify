@@ -149,7 +149,7 @@ section.pricing .rukun-tetangga {
     padding-left: 7rem;
     padding-right: 3rem;
     display: flex;
-
+    justify-content: space-around;
   }
 
   .front-page .description {

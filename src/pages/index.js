@@ -16,6 +16,7 @@ import SignInPage from "../images/sign_in_page.jpg"
 import Evolve from "../images/refresh.svg"
 import Management from "../images/files.svg"
 import SecurityIcon from "../images/shield-check.svg"
+import Coin from "../images/coin.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -26,7 +27,7 @@ const IndexPage = () => (
           <h1 class="motto">The New Standard for Resident Associations</h1>
           <p class="tagline">BUCA is a simple and powerful solution for running an effective Resident Association. We assist you in reducing your workload by digitizing your association while automating menial tasks.</p>
           <section class="contact-us">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Try for free</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up</a>
           </section>
         </section>
         <section class="image">
@@ -38,22 +39,27 @@ const IndexPage = () => (
           <h2>Why use BUCA?</h2>
         </section>
         <section class="selling-points">
-          <section class="selling-point">
+          {/* <section class="selling-point">
             <img src={SecurityIcon} alt="Security Icon"/>
             <h3>Digitized Security</h3>
             <p>From detailed security logs to a centralized security reporting system for residents, provide hassle-free security to both residents and committee members.</p>
-          </section>
+          </section> */}
           <section class="selling-point">
             <img src={Management} alt="Effective Management Icon"/>
             <h3>Effective Management</h3>
             <p>Manage your Resident Association efficiently with a simplified workflow giving you more time to focus on the important things.</p>
           </section>
           <section class="selling-point">
-            <img src={Evolve} alt="Evolution Icon"/>
+            <img src={Coin} alt="Evolution Icon"/>
+            <h3>Free of Charge</h3>
+            <p>Servers are currently self-funded and the service is offered free of charge.</p>
+          </section>
+          <section class="selling-point">
+            <img src={Evolve} alt="Constantly Updating Icon"/>
             <h3>Always Evolving</h3>
             <p>Whether it's with bug fixes or newly added features, BUCA is constantly evolving by finding new ways to improve the processes of Resident Associations.</p>
           </section>
-          </section>
+        </section>
       </section>
 
       <section class="divider">
@@ -70,7 +76,7 @@ const IndexPage = () => (
       <section class="last-section">
         <h2>Ready to get started with BUCA?</h2>
         <section class="contact-us">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Try for free</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up</a>
         </section>
       </section>
     </section>

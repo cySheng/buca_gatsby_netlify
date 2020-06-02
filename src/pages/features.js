@@ -22,7 +22,7 @@ const FeaturesPage = () => (
         <h1>Digitize your Resident Association with BUCA</h1>
         <p>Web management software designed to help you build an effective association with efficient processes.</p>
         <section class="contact-us">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Try for free</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Try Now</a>
           <Link  to="/pricing" className="secondary-button">Browse our plans</Link>
         </section>
       </section>
@@ -132,7 +132,7 @@ const FeaturesPage = () => (
       </section>
       <section class="closing-points">
         <section class="closing-point">
-          <p class="header">Easy access</p>
+          <p class="header">Easy Access</p>
           <p>BUCA allows residents and committee members easy access to the system through mobile devices or a desktop computer no matter where they are.</p>
         </section>
         <section class="closing-point">
@@ -140,8 +140,8 @@ const FeaturesPage = () => (
           <p>Ensure compliance and avoid mismanagement with extensive audit trail for important features such as payments, invitations and more.</p>
         </section>
         <section class="closing-point">
-          <p class="header">Telegram Integration</p>
-          <p>Integration with Telegram chat bots provide rich features such as auto-management of groups, general inquiries and more.</p>
+          <p class="header">Free</p>
+          <p>BUCA is focused on elevating the standards of resident associations in Malaysia through a accessible and free solution.</p>
         </section>
       </section>
 
@@ -150,9 +150,9 @@ const FeaturesPage = () => (
       import old data */}
     </section>
     <section class="product-feature-last-section">
-      <h2>Trial for free</h2>
+      <h2>Revamp your association today!</h2>
       <section class="contact-us">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Get started for free today!</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Get started!</a>
       </section>
     </section>
   </Layout>

@@ -15,13 +15,97 @@
   background-size: cover;
   padding: 4rem;
 
+  section.header {
+    text-align: center;
+    color: white;
+
+    h4 {
+      margin-bottom: 0.3rem;
+    }
+
+    h1 {
+      color: black;
+    }
+  }
+
+  section.announcement {
+    @media screen and (min-width: 1032px) {
+      display: flex;
+    }
+    border-radius: 4px;
+    background-color: white;
+    padding: 2.5rem 2rem;
+    margin-bottom: 3rem;
+
+    section.new {
+      @media screen and (max-width: 1032px) {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    span.new {
+      color: #28a745;
+      border: 1px solid #34d058;
+      padding: 0.05rem 0.5rem;
+      margin-right: 1rem;
+
+
+    }
+
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 0.6rem;
+    }
+
+    ol {
+      margin-bottom: 0;
+    }
+
+    .action-button {
+      display: flex;
+      align-items: center;
+      flex-grow: 2;
+      justify-content: flex-end;
+
+
+
+      @media screen and (min-width: 1032px) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      a {
+        background-color: #0366d6;
+        color: white;
+        padding: 1rem;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 3px;
+
+        @media screen and (max-width: 1032px) {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  section.paid {
+    p.header {
+      margin-bottom: 0.8rem;
+    }
+
+    ul {
+      text-align: left;
+    }
+  }
+
   h1 {
     margin-top: 0;
     color: white;
-  }
-
-  .pricing-page-title {
-    text-align: center;
   }
 
   .pricing-tables {
@@ -32,7 +116,7 @@
   @media screen and (max-width: 1032px) {
     padding: 3rem 1rem;
 
-    .rukun-tetangga, .resident-association {
+    section.free, section.paid {
       max-width: 70vw;
       margin-bottom: 3rem;
     }
@@ -52,7 +136,7 @@
       margin-bottom: 4rem;
     }
 
-    .rukun-tetangga, .resident-association {
+    section.free, section.paid {
       max-width: 40vw;
       margin: 0 2rem;
     }
@@ -62,7 +146,7 @@
 
   }
 
-  .rukun-tetangga, .resident-association {
+  section.free, section.paid {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -83,18 +167,23 @@
     }
 
     .light {
-      margin-top: 0.5rem;
+      margin-top: 0.8rem;
       color: #5B6B7F;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
   }
 
-  .rukun-tetangga h2 {
+  section.free h2 {
     color: #3EA9F5;
   }
 
-  .resident-association h2 {
+  section.paid h2 {
     color: #5B6B7F;
+  }
+
+  span.free {
+    color: #3EA9F5;
+    font-weight: 700;
   }
 }
 

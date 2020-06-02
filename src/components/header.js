@@ -55,7 +55,7 @@ class Header extends React.Component {
 
           </div>
           {/* <a href= */}
-          <a href="https://forms.gle/NHbVCBFLMxjFxg657" target="_blank" rel="noreferrer" class="get-started">Get started</a>
+          <a href="https://forms.gle/NHbVCBFLMxjFxg657" target="_blank" rel="noreferrer" class="get-started">Contact Us</a>
         </section>
       </header>
     );

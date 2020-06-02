@@ -14,7 +14,7 @@ const AboutPage = () => (
     </section>
 
     <section class="our-story">
-      <h2>Our story</h2>
+      <h2>Our Story</h2>
       {/* <section class="description"> */}
         <p>BUCA was founded in 2019 by Sheng with design help from Sammie.</p>
         <p>From the beginning, BUCA was built to address the pains that comes with managing a Resident Association. Unnecessary paperwork and repetitive tasks among other grievances were the catalyst to the birth of BUCA.</p>

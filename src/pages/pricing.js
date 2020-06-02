@@ -27,7 +27,7 @@ const PricingPage = () => (
           </ol>
         </section>
         <section class="action-button">
-          <a href="">Sign Up Now</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up Now</a>
         </section>
       </section>
 

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About BUCA" />
+    <SEO title="About BUCA" description="Learn more about BUCA's mission and history." />
     <section class="about-us">
       <h2>We're BUCA</h2>
       <p>We develop software for associations based on the belief that all neigbourhood should use software to manage and grow their community.</p>

@@ -20,7 +20,7 @@ import Coin from "../images/coin.svg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="BUCA" />
+    <SEO title="The best resident association software around - BUCA" description="From security fee collection and internal RA management tools to Telegram integration, BUCA's got you covered when it comes to managing your resident association."/>
     <section class="landing-page">
       <section class="front-page">
         <section class="description">

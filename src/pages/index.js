@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 // import Normalize from "../components/normalize"
 import Layout from "../components/layout"
@@ -27,7 +27,8 @@ const IndexPage = () => (
           <h1 class="motto">The New Standard for Resident Associations</h1>
           <p class="tagline">BUCA is a simple and powerful solution for running an effective Resident Association. We assist you in reducing your workload by digitizing your association while automating menial tasks.</p>
           <section class="contact-us">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up</a>
+            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up</a> */}
+            <Link  to="/features">Learn More</Link>
           </section>
         </section>
         <section class="image">

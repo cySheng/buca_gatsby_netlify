@@ -1,21 +1,6 @@
 
-
-.front-page header {
-  grid-area: header;
-  margin-bottom: 2rem;
-  padding: 0.5rem 0.5rem 0 0.5rem;
-}
-
-.front-page .description {
-  grid-area: content;
-}
-
 .front-page .description .tagline {
   font-size: 1.4rem;
-}
-
-.front-page .image {
-  grid-area: image;
 }
 
 .front-page .image img {
@@ -23,16 +8,16 @@
   max-width: 300px;
 }
 
-.features img {
+/* .features img {
   box-shadow: 0 1rem 3rem rgba(6, 6, 6, 0.5);
 }
 
 .features .feature .image .telegram-icon {
   max-width: 30vw;
   border-radius: 50%;
-}
+} */
 
-.features h1 {
+/* .features h1 {
   text-align: center;
 }
 
@@ -49,7 +34,7 @@
 .original-price {
   text-decoration: line-through red solid;
   text-decoration-thickness: 0.2rem;
-}
+} */
 
 .divider {
   text-align: center;
@@ -79,7 +64,7 @@
   color: #428dbd;
 } */
 
-section.pricing {
+/* section.pricing {
   display: grid;
   grid-template-rows: 20% 35% 35% 10%;
   grid-template-columns: 50% 50%;
@@ -100,7 +85,7 @@ section.pricing .resident-association, section.pricing .rukun-tetangga {
   margin: 1rem 3rem;
   text-align: center;
   box-shadow:  0 10px 15px -3px rgb(80, 81, 80), 0 4px 6px -2px rgba(104, 104, 104, 0.7);
-}
+} */
 
 section.pricing .resident-association {
   grid-area: ra;

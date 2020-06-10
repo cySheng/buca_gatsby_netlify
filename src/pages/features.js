@@ -8,9 +8,9 @@ import SEO from "../components/seo"
 import SecurityIcon from "../images/shield-check.svg"
 import Management from "../images/pencil.svg"
 import Experience from "../images/plus-circle.svg"
-import Security from "../images/security.png"
-import Payment from "../images/payments.png"
-import Voucher from "../images/voucher.png"
+import Security from "../images/security_1.png"
+import Payment from "../images/payments_1.png"
+import Voucher from "../images/voucher_1.png"
 
 
 const FeaturesPage = () => (

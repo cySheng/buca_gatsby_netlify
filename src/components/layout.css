@@ -865,5 +865,14 @@ header .left {
     margin: 25px 1rem;
   }
 
+  header .left a:first-child {
+    display: flex;
+  }
+
+  header .hamburger-menu {
+    max-height: 35px;
+    max-width: 50px;
+  }
+
 }
 

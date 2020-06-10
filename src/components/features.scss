@@ -17,6 +17,12 @@
   .contact-us {
     margin: 5rem 0;
     text-align: left;
+
+    @media screen and (max-width: 1032px) {
+      a:first-child {
+        line-height: 1.85;
+      }
+    }
   }
 
   .secondary-button {
@@ -79,6 +85,12 @@
   padding: 3rem;
   background-color: #FDD500;
   text-align: center;
+
+  @media screen and (min-width: 1032px) {
+    h2 {
+      margin-bottom: 4rem;
+    }
+  }
 }
 
 .product-feature-last-section {

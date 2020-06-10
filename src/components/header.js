@@ -4,6 +4,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 
 import Buca from "../images/buca_logo.svg"
+import Menu from "../images/open-menu.svg"
 
 // const [open, setOpen] = useState(false);
 
@@ -45,7 +46,7 @@ class Header extends React.Component {
           </Menu> */}
           <div class="dropdown hidden-landscape">
             <button class="dropbtn" onClick={() => this.toggleDropdown()}>
-              ▼
+              <img src={Menu} alt="Menu" class="hamburger-menu"/>
             </button>
             <div id="myDropdown" className={this.state.dropdown ? 'dropdown-content show' : 'dropdown-content' }>
               <Link className="navigation-link" to="/features">Features</Link>

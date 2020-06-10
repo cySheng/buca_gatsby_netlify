@@ -20,7 +20,7 @@ import Coin from "../images/coin.svg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="BUCA" />
     <section class="landing-page">
       <section class="front-page">
         <section class="description">

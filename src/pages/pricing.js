@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const PricingPage = () => (
   <Layout>
-    <SEO title="Pricing" />
+    <SEO title="BUCA Pricing" />
 
     <section class="pricing-front-page">
       <section class="header">

@@ -15,7 +15,7 @@ import Voucher from "../images/voucher_1.png"
 
 const FeaturesPage = () => (
   <Layout>
-    <SEO title="Product"/>
+    <SEO title="BUCA Features"/>
     <section class="product-feature-front">
       <section class="left">
         <h4>Management Software</h4>

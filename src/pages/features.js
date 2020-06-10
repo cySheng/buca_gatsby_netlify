@@ -15,7 +15,7 @@ import Voucher from "../images/voucher_1.png"
 
 const FeaturesPage = () => (
   <Layout>
-    <SEO title="BUCA: Everything You Need to Digitize Your Association" description="Use tailored tools that help your association managet effectively and effieciently."/>
+    <SEO title="BUCA: Everything You Need to Digitize Your Association" description="Use tailored tools that help your association manage effectively and effieciently."/>
     <section class="product-feature-front">
       <section class="left">
         <h4>Management Software</h4>

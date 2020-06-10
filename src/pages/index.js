@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import SignInPage from "../images/sign_in_page.jpg"
+import SignInPage from "../images/sign_in_page_1.png"
 // import Payment from "../images/payments_page.png"
 // import Security from "../images/security_page.png"
 // import Event from "../images/events_page.png"
@@ -15,7 +15,7 @@ import SignInPage from "../images/sign_in_page.jpg"
 
 import Evolve from "../images/refresh.svg"
 import Management from "../images/files.svg"
-import SecurityIcon from "../images/shield-check.svg"
+// import SecurityIcon from "../images/shield-check.svg"
 import Coin from "../images/coin.svg"
 
 const IndexPage = () => (

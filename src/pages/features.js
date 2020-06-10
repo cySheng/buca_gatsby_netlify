@@ -3,7 +3,7 @@ import React from "react"
 import { PageProps, Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Dashboard from "../images/dashboard_page.png"
+import Dashboard from "../images/dashboard_page_1.png"
 import SEO from "../components/seo"
 import SecurityIcon from "../images/shield-check.svg"
 import Management from "../images/pencil.svg"

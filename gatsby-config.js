@@ -5,6 +5,7 @@ module.exports = {
     description: `An application to help manage your resident association easily and effectively.`,
     author: `Sheng`,
     keywords: `Malaysia, Resident Association, Rukun Tetangga, Community, Guarded Status, Guarded Neighborhood`,
+    image: "src/images/buca_icon.png",
   },
   plugins: [
     `gatsby-plugin-sitemap`,

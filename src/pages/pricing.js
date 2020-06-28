@@ -19,7 +19,7 @@ const PricingPage = () => (
           <span class="new">NEW</span>
         </section>
         <section class="description">
-          <h2>BUCA is now free</h2>
+          <h2>BUCA requirements</h2>
           <p>To be eligible to use BUCA, your association has to meet the following requirements:</p>
           <ol>
             <li>Based in Malaysia.</li>
@@ -43,9 +43,9 @@ const PricingPage = () => (
       <section class="pricing-tables">
         <section class="free">
           <section class="first">
-            <h2>Free</h2>
+            <h2>Basic</h2>
 
-            <p class="light">Forever</p>
+            <p class="light">RM1 per house/year</p>
           </section>
           <section class="second">
             <p class="header">

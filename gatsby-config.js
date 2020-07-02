@@ -8,6 +8,7 @@ module.exports = {
     image: "src/images/buca_icon.png",
   },
   plugins: [
+    `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,

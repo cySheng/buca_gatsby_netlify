@@ -114,10 +114,10 @@ const PricingPage = () => (
         <p class="header">Is the application really free?</p>
         <p>Yes! BUCA's primary aim is to assist resident associations and rukun tetanggas (neigborhood watch).</p>
       </section>
-      <section class="question">
+      {/* <section class="question">
         <p class="header">I am interested but my society is not based in Malaysia. Can I still apply?</p>
         <p>Please do submit a  <a href="https://forms.gle/NHbVCBFLMxjFxg657" target="_blank" rel="noreferrer" class="get-in-touch">general inquiry</a> to us.</p>
-      </section>
+      </section> */}
     </section>
     <section class="pricing-last-section">
       <h2>Digitize your neighbourhood</h2>

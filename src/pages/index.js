@@ -40,21 +40,21 @@ const IndexPage = () => (
           <h2>Why use BUCA?</h2>
         </section>
         <section class="selling-points">
-          {/* <section class="selling-point">
+          <section class="selling-point">
             <img src={SecurityIcon} alt="Security Icon"/>
             <h3>Digitized Security</h3>
             <p>From detailed security logs to a centralized security reporting system for residents, provide hassle-free security to both residents and committee members.</p>
-          </section> */}
+          </section>
           <section class="selling-point">
             <img src={Management} alt="Effective Management Icon"/>
             <h3>Effective Management</h3>
             <p>Manage your Resident Association efficiently with a simplified workflow giving you more time to focus on the important things.</p>
           </section>
-          <section class="selling-point">
+          {/* <section class="selling-point">
             <img src={Coin} alt="Evolution Icon"/>
             <h3>Free of Charge</h3>
             <p>Servers are currently self-funded and the service is offered free of charge.</p>
-          </section>
+          </section> */}
           <section class="selling-point">
             <img src={Evolve} alt="Constantly Updating Icon"/>
             <h3>Always Evolving</h3>

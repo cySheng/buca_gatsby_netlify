@@ -15,7 +15,7 @@ import SignInPage from "../images/sign_in_page_1.png"
 
 import Evolve from "../images/refresh.svg"
 import Management from "../images/files.svg"
-// import SecurityIcon from "../images/shield-check.svg"
+import SecurityIcon from "../images/shield-check.svg"
 import Coin from "../images/coin.svg"
 
 const IndexPage = () => (

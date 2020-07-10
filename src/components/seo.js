@@ -48,7 +48,7 @@ function SEO({ description, lang, meta, title, image }) {
           content: site.siteMetadata.keywords, //.join(","),
         },
         {
-          name: `og:image`,
+          property: `og:image`,
           content: Dashboard
         },
         {

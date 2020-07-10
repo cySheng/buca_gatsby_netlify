@@ -132,16 +132,20 @@ const FeaturesPage = () => (
       </section>
       <section class="closing-points">
         <section class="closing-point">
-          <p class="header">Easy Access</p>
-          <p>BUCA allows residents and committee members easy access to the system through mobile devices or a desktop computer no matter where they are.</p>
+          <p class="header">Ease of Use</p>
+          <p>BUCA is extremely simple and easy to use allowing both residents and committee members easy access to the system through mobile devices or a desktop computer no matter where they are.</p>
         </section>
         <section class="closing-point">
           <p class="header">Accountability</p>
           <p>Ensure compliance and avoid mismanagement with extensive audit trail for important features such as payments, invitations and more.</p>
         </section>
-        <section class="closing-point">
+        {/* <section class="closing-point">
           <p class="header">Free</p>
           <p>BUCA is focused on elevating the standards of resident associations in Malaysia through a accessible and free solution.</p>
+        </section> */}
+        <section class="closing-point">
+          <p class="header">Efficiency</p>
+          <p>All features of BUCA are built and refined with the main concern of eliminating double work to ensure efficient management.</p>
         </section>
       </section>
 

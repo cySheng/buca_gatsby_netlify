@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
           */}
 
-          <p>BUCA © Copyright 2020. All rights reserved. Developed by <a href="https://www.samsheng.my">Sheng</a> & Sammie. </p>
+          <p>BUCA © Copyright 2020. All rights reserved. Developed by <a href="https://www.samsheng.my">Sheng</a>. </p>
           <section class="right">
             <a href="https://docs.google.com/document/d/1yfpuwUGyZVVzqyJGGuO4lg10xx6BPFYEWv_hIvyXte4/edit?usp=sharing" target="_blank" rel="noreferrer">Privacy Policy</a>
             <a href="https://docs.google.com/document/d/1NPuAgjPorDL2g7uNVbDtE-LOI_0PNZ5v3ciSrJzHoEs/edit?usp=sharing" target="_blank" rel="noreferrer">Terms of Use</a>

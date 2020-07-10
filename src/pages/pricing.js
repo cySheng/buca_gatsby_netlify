@@ -44,40 +44,33 @@ const PricingPage = () => (
         <section class="free">
           <section class="first">
             <h2>Basic</h2>
-
-            <p class="light">RM1 per house/year</p>
+            <p class="light">RM2 per house/year</p>
           </section>
           <section class="second">
             <p class="header">
               Security Fee Management
             </p>
-            {/* <p>FREE</p> */}
           </section>
           <section class="third">
             <p class="header">
               Internal Finance Management
             </p>
-            {/* <p>FREE</p> */}
           </section>
           <section class="fourth">
             <p class="header">Internal Security Management</p>
-            {/* <p>RM0.50 per house</p> */}
           </section>
           <section class="fifth">
             <p class="header">Resident Association Management</p>
           </section>
         </section>
 
-        <section class="paid">
+        {/* <section class="paid">
           <section class="first">
             <h2>Standard</h2>
             <p class="light">RM2 per house/year</p>
-            {/* <p></p> */}
           </section>
           <section class="second">
             <p>All <span class="free">FREE</span> features</p>
-            {/* <p class="header">Subscription fee</p>
-            <p>FREE</p> */}
           </section>
           <section class="third">
             <p class="header">
@@ -87,37 +80,22 @@ const PricingPage = () => (
               <li>Automated directory</li>
               <li>Automated report handling</li>
               <li>Auto-manage Telegram groups</li>
-              {/* <li class=""></li> */}
-              {/* <li>Auto-join outsiders</li>
-              <li>Report</li> */}
-              {/* <li>Allow residents to </li> */}
             </ul>
-            {/* <p class="header">Licence fee</p>
-            <p>FREE</p> */}
           </section>
-          {/* <section class="fourth">
-            <p class="header">Maintenance fee</p>
-            <p>RM2 per house</p>
-          </section>
-          <section class="fifth">
-            <p class="header">Setup Fee*</p>
-            <p>RM1000</p>
-            <p class="light">*One-off fee includes training, implementation and monitoring</p>
-          </section> */}
-        </section>
+        </section> */}
       </section>
     </section>
 
     <section class="pricing-faq">
     <h3>Frequently Asked Questions</h3>
-      <section class="question">
+      {/* <section class="question">
         <p class="header">Is the application really free?</p>
         <p>Yes! BUCA's primary aim is to assist resident associations and rukun tetanggas (neigborhood watch).</p>
-      </section>
-      {/* <section class="question">
+      </section> */}
+      <section class="question">
         <p class="header">I am interested but my society is not based in Malaysia. Can I still apply?</p>
         <p>Please do submit a  <a href="https://forms.gle/NHbVCBFLMxjFxg657" target="_blank" rel="noreferrer" class="get-in-touch">general inquiry</a> to us.</p>
-      </section> */}
+      </section>
     </section>
     <section class="pricing-last-section">
       <h2>Digitize your neighbourhood</h2>

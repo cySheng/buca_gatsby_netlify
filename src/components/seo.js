@@ -49,7 +49,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:image`,
-          content: Dashboard
+          content: Dashboard,
         },
         {
           property: `og:title`,
@@ -66,9 +66,6 @@ function SEO({ description, lang, meta, title, image }) {
         {
           name: `twitter:card`,
           content: `summary`,
-        },
-        {
-          name: ``
         },
         {
           name: `twitter:creator`,

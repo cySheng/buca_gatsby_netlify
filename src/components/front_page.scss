@@ -41,24 +41,30 @@
   margin-top: 3rem;
   background-color: #363945;
   color: white;
-  padding: 7rem 2rem;
+  padding: 3rem 2rem;
+
+  .title {
+    margin-bottom: 5rem;
+    font-size: 1.6rem;
+  }
+
+  .description {
+    max-width: 700px;
+    text-align: center;
+    margin: 1rem auto 0 auto;
+  }
+
+  p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    max-width: 500px;
+  }
 }
 
-.divider .title {
-  margin-bottom: 5rem;
-  font-size: 1.6rem;
-}
 
-.divider .description {
-  max-width: 700px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.divider p {
-  font-size: 1.3rem;
-  margin-bottom: 1.5rem;
-}
 
 /* .divider h2, .features h3 {
   color: #428dbd;
@@ -124,6 +130,16 @@ section.pricing .rukun-tetangga {
   margin-bottom: 1.2rem;
 }
 
+.banner {
+  background-color: #407ba0;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  h2 {
+    margin: 1rem 0;
+  }
+}
+
 @media screen and (min-width: 1032px) {
   .selling-points {
     justify-content: space-around;
@@ -177,6 +193,11 @@ section.pricing .rukun-tetangga {
     text-align: left;
     margin: 3rem 0 0 0;
     /* box-shadow: */
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
   }
 }
 

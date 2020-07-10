@@ -17,6 +17,7 @@ import Evolve from "../images/refresh.svg"
 import Management from "../images/files.svg"
 import SecurityIcon from "../images/shield-check.svg"
 import Coin from "../images/coin.svg"
+import Paperwork from "../images/paperwork.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -35,15 +36,24 @@ const IndexPage = () => (
           <img src={SignInPage} alt="Sign In Page of BUCA app"/>
         </section>
       </section>
+      <section class="banner">
+        <h2>Built by Resident Association.</h2>
+        <h2>For Resident Associations.</h2>
+      </section>
       <section class="first-section">
         <section class="selling-line">
           <h2>Why use BUCA?</h2>
         </section>
         <section class="selling-points">
+        <section class="selling-point">
+            <img src={Coin} alt="Security Fee"/>
+            <h3>Security Fee</h3>
+            <p>Easily track, manage and follow up on security fee payments with additional features such as automatic receipt processing, audit trail and much more.</p>
+          </section>
           <section class="selling-point">
             <img src={SecurityIcon} alt="Security Icon"/>
             <h3>Digitized Security</h3>
-            <p>From detailed security logs to a centralized security reporting system for residents, provide hassle-free security to both residents and committee members.</p>
+            <p>With detailed security logs, provide reliable and hassle-free security to both residents and committee members .</p>
           </section>
           <section class="selling-point">
             <img src={Management} alt="Effective Management Icon"/>
@@ -55,21 +65,22 @@ const IndexPage = () => (
             <h3>Free of Charge</h3>
             <p>Servers are currently self-funded and the service is offered free of charge.</p>
           </section> */}
-          <section class="selling-point">
+          {/* <section class="selling-point">
             <img src={Evolve} alt="Constantly Updating Icon"/>
             <h3>Always Evolving</h3>
             <p>Whether it's with bug fixes or newly added features, BUCA is constantly evolving by finding new ways to improve the processes of Resident Associations.</p>
-          </section>
+          </section> */}
         </section>
       </section>
 
       <section class="divider">
-        <section class="title">
-          <h2>Built by Resident Association.</h2>
-          <h2>For Resident Associations.</h2>
-        </section>
+        {/* <section class="title">
+
+        </section> */}
+        <img src={Paperwork} alt="Paperwork Workload"/>
         <section class="description">
-          <p>BUCA was built to address the tedious and repetitive tasks that comes with managing a Resident Association.</p>
+          <h2>Work Efficiently</h2>
+          <p>BUCA was specifically built to address the tedious and repetitive tasks that comes with managing a Resident Association.</p>
           <p>BUCA is the no-frills Resident Association solution.</p>
         </section>
       </section>
@@ -77,7 +88,7 @@ const IndexPage = () => (
       <section class="last-section">
         <h2>Ready to get started with BUCA?</h2>
         <section class="contact-us">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScrJMD2s14lrdJ_uvSRMe-jB_U3oxkcvXTJzRd_6RLACTCxTQ/viewform?usp=sf_link" target="_blank" rel="noreferrer">SIGN UP NOW</a>
         </section>
       </section>
     </section>

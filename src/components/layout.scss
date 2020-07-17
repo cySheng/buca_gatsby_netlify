@@ -770,6 +770,7 @@ header {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
+  position: relative;
 }
 
 .last-section {
@@ -878,5 +879,29 @@ header .left {
     max-width: 50px;
   }
 
+}
+
+.svg-wrapper {
+  position: relative;
+}
+
+.custom-shape-divider-top-1594991478 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1594991478 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 40px;
+}
+
+.custom-shape-divider-top-1594991478 .shape-fill {
+  fill: #FFFFFF;
 }
 

@@ -5,7 +5,7 @@
 
 .front-page .image img {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-  max-width: 250px;
+  max-width: 225px;
 }
 
 /* .features img {
@@ -105,34 +105,15 @@ section.pricing .rukun-tetangga {
 .first-section {
   padding: 2rem;
   margin: 2.5rem 0;
-}
 
-.first-section p {
-  font-size: 1.2rem;
-}
+  p {
+    font-size: 1.2rem;
+  }
 
-.first-section h2 {
-  text-align: center;
-  font-size: 1.8rem;
-}
-
-.selling-points {
-  display: flex;
-}
-
-.selling-point {
-  padding-top: 1rem;
-  padding: 2rem 1rem 0 1rem;
-  max-width: 425px;
-
-  background-color: #c8e5ff;
-  border-radius: 1rem;
-margin-bottom: 1rem;
-}
-
-.selling-point img {
-  width: 4rem;
-  margin-bottom: 1.2rem;
+  h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
 }
 
 .banner {
@@ -147,6 +128,34 @@ margin-bottom: 1rem;
 
 .front-page {
   display: flex;
+}
+
+.selling-points {
+  flex-wrap: wrap;
+  display: flex;
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:visited {
+      color: black;
+    }
+  }
+
+  .selling-point {
+    max-width: 425px;
+    padding: 2rem 1rem 1rem 1rem;
+    background-color: #c8e5ff;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    min-height: 316px;
+
+    img {
+      width: 4rem;
+      margin-bottom: 1.2rem;
+    }
+  }
 }
 
 @media screen and (max-width: 1032px) {

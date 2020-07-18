@@ -50,7 +50,7 @@ const FeaturesPage = () => (
       </section>
     </section>
     <section class="product-features">
-      <section class="product-feature">
+      <section class="product-feature" id="security">
         <section class="title">
           <img src={SecurityIcon} alt="Security icon"/>
           <h3>Monitor security on a platform you control</h3>
@@ -77,12 +77,12 @@ const FeaturesPage = () => (
         </section>
       </section>
       <hr></hr>
-      <section class="product-feature">
+      <section class="product-feature" id="security-fee">
         <section class="title">
           <img src={Experience} alt="Positive experience icon"/>
           <h3>Create positive, quality experiences</h3>
         </section>
-        <section class="content">
+        <section class="content" >
           <img src={Payment} alt="Screenshot of payment page"/>
           <section class="feature-list">
             <article class="feature-description">
@@ -101,7 +101,7 @@ const FeaturesPage = () => (
         </section>
       </section>
       <hr></hr>
-      <section class="product-feature">
+      <section class="product-feature" id="management">
         <section class="title">
           <img src={Management} alt="Management icon"/>
           <h3>Manage effectively and efficiently</h3>

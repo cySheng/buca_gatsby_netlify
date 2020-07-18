@@ -45,21 +45,27 @@ const IndexPage = () => (
           <h2>Why use BUCA?</h2>
         </section>
         <section class="selling-points">
-        <section class="selling-point">
-            <img src={Coin} alt="Security Fee"/>
-            <h3>Security Fee</h3>
-            <p>Easily track, manage and follow up on security fee payments with additional features such as automatic receipt processing, audit trail and much more.</p>
+          <Link to="/features#security-fee">
+            <section class="selling-point">
+              <img src={Coin} alt="Security Fee"/>
+              <h3>Security Fee</h3>
+              <p>Easily track, manage and follow up on security fee payments with additional features such as automatic receipt processing, audit trail and much more.</p>
           </section>
-          <section class="selling-point">
-            <img src={SecurityIcon} alt="Security Icon"/>
-            <h3>Digitized Security</h3>
-            <p>With detailed security logs, provide reliable and hassle-free security to both residents and committee members .</p>
-          </section>
-          <section class="selling-point">
-            <img src={Management} alt="Effective Management Icon"/>
-            <h3>Effective Management</h3>
-            <p>Manage your Resident Association efficiently with a simplified workflow giving you more time to focus on the important things.</p>
-          </section>
+          </Link>
+          <Link to="/features#security">
+            <section class="selling-point">
+              <img src={SecurityIcon} alt="Security Icon"/>
+              <h3>Digitized Security</h3>
+              <p>With detailed security logs, provide reliable and hassle-free security to both residents and committee members .</p>
+            </section>
+          </Link>
+          <Link to="/features#management">
+            <section class="selling-point">
+              <img src={Management} alt="Effective Management Icon"/>
+              <h3>Effective Management</h3>
+              <p>Manage your Resident Association efficiently with a simplified workflow giving you more time to focus on the important things.</p>
+            </section>
+          </Link>
           {/* <section class="selling-point">
             <img src={Coin} alt="Evolution Icon"/>
             <h3>Free of Charge</h3>

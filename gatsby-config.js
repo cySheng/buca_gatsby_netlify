@@ -39,22 +39,32 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Poppins`,
-            variants: [`400`, `700`]
-          },
+          `poppins\:400,700`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        policy: [{ userAgent: '*', allow: '/' }]
+        display: 'swap'
       }
     },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Poppins`,
+    //         variants: [`400`, `700`]
+    //       },
+    //     ],
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-plugin-robots-txt',
+    //   options: {
+    //     policy: [{ userAgent: '*', allow: '/' }]
+    //   }
+    // },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-catch-links`,

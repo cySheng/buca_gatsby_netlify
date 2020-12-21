@@ -44,7 +44,7 @@ const PricingPage = () => (
         <section class="free">
           <section class="first">
             <h2>Basic</h2>
-            <p class="light">RM2 per house/year</p>
+            <p class="light">FREE</p>
           </section>
           <section class="second">
             <p class="header">
